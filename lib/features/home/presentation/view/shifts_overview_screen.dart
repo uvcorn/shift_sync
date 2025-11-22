@@ -37,7 +37,7 @@ class _ShiftsOverviewScreenState extends ConsumerState<ShiftsOverviewScreen> {
                     text: AppStrings.shiftsOverview,
                     fontSize: 20.sp,
                     fontWeight: FontWeight.w500,
-                    color: AppColors.blue,
+                    color: AppColors.black,
                   ),
                   const Spacer(),
                 ],
@@ -51,7 +51,7 @@ class _ShiftsOverviewScreenState extends ConsumerState<ShiftsOverviewScreen> {
                   text: AppStrings.upcomingShifts,
                   fontSize: 16.sp,
                   fontWeight: FontWeight.w600,
-                  color: AppColors.blue.withOpacity(0.85),
+                  color: AppColors.black.withOpacity(0.85),
                 ),
               ),
               SizedBox(height: 12.h),
@@ -106,7 +106,7 @@ class _ShiftsOverviewScreenState extends ConsumerState<ShiftsOverviewScreen> {
                                 text: shift.name,
                                 fontSize: 15.sp,
                                 fontWeight: FontWeight.w600,
-                                color: AppColors.blue,
+                                color: AppColors.black,
                               ),
                               SizedBox(height: 4.h),
 
@@ -115,14 +115,14 @@ class _ShiftsOverviewScreenState extends ConsumerState<ShiftsOverviewScreen> {
                                   Icon(
                                     Icons.calendar_month_rounded,
                                     size: 14.sp,
-                                    color: AppColors.blue.withOpacity(0.7),
+                                    color: AppColors.black.withOpacity(0.7),
                                   ),
                                   SizedBox(width: 6.w),
                                   CustomText(
                                     text: shift.date,
                                     fontSize: 12.sp,
                                     fontWeight: FontWeight.w400,
-                                    color: AppColors.blue.withOpacity(0.75),
+                                    color: AppColors.black.withOpacity(0.75),
                                   ),
                                 ],
                               ),
@@ -133,7 +133,7 @@ class _ShiftsOverviewScreenState extends ConsumerState<ShiftsOverviewScreen> {
 
                           Icon(
                             Icons.chevron_right_rounded,
-                            color: AppColors.blue,
+                            color: AppColors.black,
                           ),
                         ],
                       ),
