@@ -91,7 +91,7 @@ class _ShiftsOverviewScreenState extends ConsumerState<ShiftsOverviewScreen> {
                             ),
                             child: Icon(
                               Icons.work_rounded,
-                              color: AppColors.blue,
+                              color: AppColors.black,
                               size: 22.sp,
                             ),
                           ),
