@@ -117,7 +117,7 @@ lib/
 │ │ └── shift_overview_view_model.dart
 │ └── data/ (placeholder for future API integration)
 │
-└── main.dart
+└── main.dart 
 
 ---
 
