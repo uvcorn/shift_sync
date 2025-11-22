@@ -82,42 +82,42 @@ Navigation:
 
 lib/
 ├── core/
-│ ├── routes/
-│ │ └── app_router.dart
-│ ├── utils/
-│ │ ├── app_colors/
-│ │ │ └── app_colors.dart
-│ │ ├── app_strings/
-│ │ │ └── app_strings.dart
-│ │ └── validators/
-│ │ └── form_validators.dart
-│ └── widgets/
-│ ├── button_widgets/
-│ │ └── custom_elevated_button.dart
-│ ├── texts_widgets/
-│ │ ├── custom_text.dart
-│ │ └── custom_checkbox.dart
-│ └── text_form_field/
-│ └── custom_text_form_field.dart
-│
+│   ├── routes/
+│   │   └── app_router.dart
+│   ├── utils/
+│   │   ├── app_colors/
+│   │   │   └── app_colors.dart
+│   │   ├── app_strings/
+│   │   │   └── app_strings.dart
+│   │   └── validators/
+│   │       └── form_validators.dart
+│   └── widgets/
+│       ├── button_widgets/
+│       │   └── custom_elevated_button.dart
+│       ├── texts_widgets/
+│       │   ├── custom_text.dart
+│       │   └── custom_checkbox.dart
+│       └── text_form_field/
+│           └── custom_text_form_field.dart
 ├── features/
-│ ├── auth/
-│ │ ├── presentation/
-│ │ │ ├── screens/
-│ │ │ │ └── login_screen.dart
-│ │ │ └── view_model/
-│ │ │ └── login_view_model.dart
-│ │ └── data/ (placeholder for future API integration)
-│ │
-│ └── home/
-│ ├── presentation/
-│ │ ├── screens/
-│ │ │ └── shifts_overview_screen.dart
-│ │ └── view_model/
-│ │ └── shift_overview_view_model.dart
-│ └── data/ (placeholder for future API integration)
-│
-└── main.dart 
+│   ├── auth/
+│   │   ├── presentation/
+│   │   │   ├── screens/
+│   │   │   │   └── login_screen.dart
+│   │   │   └── view_model/
+│   │   │       └── login_view_model.dart
+│   │   └── data/
+│   │       └── .gitkeep
+│   └── home/
+│       ├── presentation/
+│       │   ├── screens/
+│       │   │   └── shifts_overview_screen.dart
+│       │   └── view_model/
+│       │       └── shift_overview_view_model.dart
+│       └── data/
+│           └── .gitkeep
+└── main.dart
+
 
 ---
 
