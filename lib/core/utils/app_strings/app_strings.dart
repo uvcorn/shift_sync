@@ -35,4 +35,5 @@ class AppStrings {
 
   //===================Body==============
   static const String shiftsOverview = 'Shifts Overview';
+  static const String upcomingShifts = "Upcoming Shifts";
 }
