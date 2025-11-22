@@ -32,8 +32,13 @@ Navigation:
 
 ### **Framework / Language**
 
-- **Flutter 3.x.x**
-- **Dart**
+- **Flutter 3.35.0**
+- **Dart** Latest stable version
+
+### 💻 Notes
+
+- This project was developed using Flutter 3.35.0.
+- All code is compatible with the latest stable Flutter version, so it can be upgraded if needed.
 
 ### **State Management**
 
@@ -52,10 +57,11 @@ Navigation:
 
 ### **Architecture & Structure**
 
-- **Feature-based folder structure**
-- **Core layer** for reusable utilities, routes, constants, and widgets
+- **Feature-based MVVM folder structure**
+- **Core layer** for reusable utilities, constants, routes, and widgets
 - **Presentation layer** for screens and view models
-- **Model classes** used for representing shift items
+- **Data layer** (placeholder) for future API or database integration
+- **Model classes** for representing shift items
 
 ### **Widgets**
 
@@ -115,13 +121,15 @@ lib/
 
 ---
 
-## 🧠 Why This Structure?
+## 🧠 Why This Folder Structure?
 
-- **Scalable & Maintainable** — separates logic, UI, and configuration
-- **Feature-based structure** — easy to expand as app grows
-- **Reusable Core Widgets** — avoids code duplication
-- **Constants extracted** — prevents hardcoding and improves consistency
-- **Clean State Management** — using Riverpod’s StateNotifier
+- **Feature-based architecture** — separates each feature into its own module (`auth`, `home`) for scalability.
+- **Core layer** — stores reusable widgets, constants, utilities, and routing logic, reducing code duplication.
+- **Presentation layer** — handles UI and state (screens + view models) keeping logic separate from widgets.
+- **Data layer** — ready for API or database integration in future without affecting UI.
+- **Consistency & maintainability** — easy for multiple developers to understand and extend the project.
+
+This structure ensures clean separation of concerns, reusability, and easier maintenance.
 
 ---
 
